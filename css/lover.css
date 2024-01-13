@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(130, 140, 250, 0.2);
+    background-color: rgba(56, 72, 255, 0.2);
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -16,13 +16,16 @@ body{
 #img{
     width: var(--iwidth);
     height: var(--iheight);
-    box-shadow: 0 0 15px 5px rgba(0,0,0,0.7 );
+    box-shadow: 0 0 15px 5px rgba(255, 37, 244, 0.7);
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
 }
 
 #main{
     display: flex;
+    position: absolute;
+    left: 0;
 }
 
 #main div{
