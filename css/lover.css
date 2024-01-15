@@ -9,14 +9,14 @@ body{
 
 /*轮播图的大小*/
 :root{
-    --iwidth:960px;
-    --iheight:540px;
+    --iwidth:1200px;
+    --iheight:600px;
 }
 
 #img{
     width: var(--iwidth);
     height: var(--iheight);
-    box-shadow: 0 0 15px 5px rgba(255, 37, 244, 0.7);
+    box-shadow: 0 0 15px 5px rgba(255, 165, 251, 0.7);
     border-radius: 10px;
     overflow: hidden;
     position: relative;
@@ -71,5 +71,5 @@ body{
 }
 .button:hover{
     cursor: pointer;
-    background-color: rgba(56,17,17,0.7);
+    background-color: rgba(46, 189, 255, 0.7);
 }
