@@ -6,11 +6,11 @@ let speed = -15;
 
 oMain.innerHTML += oMain.innerHTML;
 let move = () => {
-    if(oMain.offsetLeft < - oMain.offsetWidth/2){
+    if(oMain.offsetLeft < - oMain.offsetWidth / 2){
         oMain.style.left = '0';
     }
     if(oMain.offsetLeft > 0){
-        oMain.style.left = -oMain.offsetWidth/2 + 'px';
+        oMain.style.left = - oMain.offsetWidth / 2 + 'px';
     }
     oMain.style.left = oMain.offsetLeft + speed + 'px';
 }
