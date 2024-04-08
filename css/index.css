@@ -76,18 +76,18 @@ section{
 }
 
 .navigationbar a:hover::after{
-    background-color: rgba(203, 27, 69, 0.7);
+    background-color: rgba(234, 68, 68, 0.839);
     height: 10px;
 }
 
 #top{
-    background-image: url(./img/top.png);
+    background-image: url(../img/top.png);
 }
 #day{
-    background-image: url(./img/day/third.JPG);
+    background-image: url(../img/day/shudong.png)
 }
 #video{
-    background-image: url(./img/video/videobc.JPG)
+    background-image: url(../img/video/videobc.JPG)
 }
 
 /* 第一块：top */
